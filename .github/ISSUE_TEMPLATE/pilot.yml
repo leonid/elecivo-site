@@ -1,0 +1,50 @@
+name: Join the pilot / Включване в пилотния проект
+description: Tell us about a job you would like to try Elecivo on. / Разкажете ни за обект, на който искате да изпробвате Elecivo.
+title: "Pilot: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Elecivo is being tried on real apartments. This issue is public, so leave out names, addresses and anything the client would not want shared.
+        Elecivo се изпробва на реални апартаменти. Тази задача е публична, затова не включвайте имена, адреси и нищо, което клиентът не би искал да е споделено.
+  - type: dropdown
+    id: role
+    attributes:
+      label: Who are you? / Кои сте?
+      options:
+        - Electrical designer / Проектант
+        - Installer / Изпълнител
+        - Both / И двете
+        - Other / Друго
+    validations:
+      required: true
+  - type: dropdown
+    id: job
+    attributes:
+      label: What kind of job? / Какъв е обектът?
+      options:
+        - New build / Ново строителство
+        - Refit of an existing installation / Ремонт на съществуваща инсталация
+        - Not decided yet / Още не е решено
+    validations:
+      required: true
+  - type: input
+    id: size
+    attributes:
+      label: Size and country / Големина и държава
+      description: For example "3-room apartment, about 70 m², Bulgaria". / Например „тристаен апартамент, около 70 м², България“.
+  - type: input
+    id: start
+    attributes:
+      label: When would you start? / Кога започвате?
+      description: A month is enough. / Достатъчен е месец.
+  - type: textarea
+    id: wants
+    attributes:
+      label: What would you want from Elecivo on it? / Какво очаквате от Elecivo на него?
+      description: For example the plan, the circuit checks, the board, the quotation. / Например плана, проверките на веригите, таблото, офертата.
+  - type: input
+    id: contact
+    attributes:
+      label: How can we reach you? (optional) / Как можем да се свържем с вас? (по избор)
+      description: This issue is public. You can also just reply here after we answer. / Задачата е публична. Можете и просто да отговорите тук, след като ви отговорим.
