@@ -32,6 +32,7 @@
   <article id="KB-0001" class="card" data-area="protection" data-kind="anti-pattern">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Common mistake</span> <span class="badge">Protection</span> <a class="id" href="#KB-0001">KB-0001</a></p>
     <p>A breaker must never be rated above what its cable can carry. An oversized breaker 'so it stops tripping' (here 63 A on a lighting circuit in 1.5 mm²) protects nothing: at 1.45 × In it may take up to an hour to trip, which the cable cannot survive.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0001.svg" alt="A 63 A single-pole breaker feeds a 1.5 mm² lighting cable. On a current axis in amperes the cable can carry about 16 A, while the breaker trips only between 1.13 and 1.45 times 63 A, which is 71 to 91 A. The gap between them is where the cable burns before the breaker trips." width="1200" height="900">
     <p class="ref">IEC: IEC 60364-4-43, 433.1 (In ≤ Iz, I2 ≤ 1.45 Iz) <span class="unverified">(reference not yet verified)</span></p><p class="ref">Checked in Elecivo by <code>CABLE_OVERLOAD_002</code></p><p class="ref">Based on: <a href="https://cs-cs.net/63a-na-osveshhenie-chtoby-ne-vybivalo" rel="nofollow noopener">source 1</a>, <a href="https://cs-cs.net/avtomaty-ne-vsyo-tak-prosto-no-interesno-vybor-nominala-avtomata" rel="nofollow noopener">source 2</a>, <a href="https://cs-cs.net/uzo-view" rel="nofollow noopener">source 3</a></p>
   </article>
   <article id="KB-0003" class="card" data-area="circuit" data-kind="solution">
@@ -42,6 +43,7 @@
   <article id="KB-0006" class="card" data-area="board" data-kind="requirement">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Requirement</span> <span class="badge">Board</span> <a class="id" href="#KB-0006">KB-0006</a></p>
     <p>The incoming isolation of a board must disconnect every phase together. Three separate single-pole breakers standing in for a main switch are not an isolator.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0006.svg" alt="Two incoming arrangements drawn to scale on a DIN rail. In (a) three separate single-pole breakers carry L1, L2 and L3, each with its own lever, so they are not an isolator. In (b) one four-pole main switch carries L1, L2, L3 and N and one handle opens all poles together." width="1200" height="900">
     <p class="ref">IEC: IEC 60364-5-53 (isolation) <span class="unverified">(reference not yet verified)</span></p><p class="ref">Based on: <a href="https://cs-cs.net/tryoxfaznaya-ekonomiya-i-pogorelosti" rel="nofollow noopener">source 1</a>, <a href="https://cs-cs.net/durackie-proekty-podvedyom-pod-xernyu" rel="nofollow noopener">source 2</a>, <a href="https://cs-cs.net/abb-module-series" rel="nofollow noopener">source 3</a>, <a href="https://cs-cs.net/rele-zashhity-ot-avarijnogo-napryazheniya-kakim-byt" rel="nofollow noopener">source 4</a></p>
   </article>
   <article id="KB-0007" class="card" data-area="board" data-kind="practice">
@@ -57,6 +59,7 @@
   <article id="KB-0009" class="card" data-area="board" data-kind="anti-pattern">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Common mistake</span> <span class="badge">Board</span> <a class="id" href="#KB-0009">KB-0009</a></p>
     <p>Inside a board, do not feed devices by looping one wire from terminal to terminal across the top of the row: the first device carries the whole board's current through its terminals and burns. Use a comb busbar or a distribution block.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0009.svg" alt="Two rows of five single-pole breakers drawn to scale on a DIN rail. In (a) one wire loops from the top terminal of each breaker to the next, so the first terminal carries the current of the whole row. In (b) a comb busbar feeds all five from one supply wire." width="1200" height="900">
     <p class="ref">Based on: <a href="https://cs-cs.net/tryoxfaznaya-ekonomiya-i-pogorelosti" rel="nofollow noopener">source 1</a></p>
   </article>
   <article id="KB-0013" class="card" data-area="documents" data-kind="practice">
@@ -167,6 +170,7 @@
   <article id="KB-0321" class="card" data-area="protection" data-kind="requirement">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Requirement</span> <span class="badge">Protection</span> <a class="id" href="#KB-0321">KB-0321</a></p>
     <p>The letter before an MCB's rating sets its instantaneous trip band: B 3–5 × In suits homes with mostly resistive loads, C 5–10 × In is the general choice, D 10–20 × In is for motors and other loads with heavy start-up current.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0321.svg" alt="Three bars on an axis of multiples of the rated current In. Type B trips instantly at 3 to 5 times In and suits homes with mostly resistive loads, type C at 5 to 10 times In is the general choice, and type D at 10 to 20 times In is for motors and other loads with heavy start-up current." width="1200" height="900">
     <p class="ref">IEC: IEC 60898-1 (instantaneous tripping types B, C, D) <span class="unverified">(reference not yet verified)</span></p><p class="ref">Checked in Elecivo by <code>INRUSH_011</code>, <code>LOOP_IMPEDANCE_007</code></p><p class="ref">Based on: <a href="https://cs-cs.net/avtomaty-ne-vsyo-tak-prosto-no-interesno-vybor-nominala-avtomata" rel="nofollow noopener">source 1</a></p>
   </article>
   <article id="KB-0324" class="card" data-area="board" data-kind="anti-pattern">
@@ -282,6 +286,7 @@
   <article id="KB-0900" class="card" data-area="protection" data-kind="requirement">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Requirement</span> <span class="badge">Protection</span> <a class="id" href="#KB-0900">KB-0900</a></p>
     <p>An RCD has no overcurrent release of its own, so its contacts must be protected by breakers: either the device upstream is rated no higher than the RCD, or the ratings of the MCBs below it add up to no more than the RCD's rating. Where the two can sit is free; what counts is that one of the conditions holds (one maker's guidance, so check the catalogue of the RCD actually used).</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0900.svg" alt="Two rails drawn to scale, each with an incoming single-pole breaker, a 40 A two-pole RCD and single-pole breakers. In (a) the incoming breaker is 40 A, no higher than the RCD, so its contacts are protected. In (b) the incoming breaker is 50 A and the breakers below add up to 16 + 16 + 16 = 48 A, both above 40 A, so the RCD is not protected." width="1200" height="900">
     <p class="ref">IEC: IEC 60364-5-53:2019, 531.2.3 and 535.2 (RCD protected against overcurrent as the manufacturer states; formerly cited as 531.3) — clause to confirm <span class="unverified">(reference not yet verified)</span></p><p class="ref">Checked in Elecivo by <code>RCD_OVERLOAD_013</code></p><p class="ref">Based on: <a href="https://cs-cs.net/uzo-view" rel="nofollow noopener">source 1</a>, <a href="https://cs-cs.net/durackie-proekty-podvedyom-pod-xernyu" rel="nofollow noopener">source 2</a>, <a href="https://cs-cs.net/abb-module-series" rel="nofollow noopener">source 3</a></p>
   </article>
   <article id="KB-0901" class="card" data-area="board" data-kind="anti-pattern">

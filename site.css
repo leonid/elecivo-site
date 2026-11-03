@@ -117,6 +117,7 @@ main > section { margin-top: 56px; }
 .badge { font-size: 0.8rem; border: 1px solid var(--line); border-radius: 999px; padding: 1px 10px; color: var(--muted); }
 .badge.draft { border-color: var(--warn-ink); color: var(--warn-ink); background: var(--warn-bg); }
 .id { margin-left: auto; font-size: 0.85rem; color: var(--muted); }
+.card-art { width: 100%; max-width: 640px; border-radius: 8px; margin: 10px 0; }
 .ref { font-size: 0.9rem; color: var(--muted); }
 .unverified { font-style: italic; }
 

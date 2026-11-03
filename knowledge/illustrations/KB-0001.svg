@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">KB-0001: A breaker above the cable&#x27;s rating</title>
+  <desc id="desc">A 63 A single-pole breaker feeds a 1.5 mm² lighting cable. On a current axis in amperes the cable can carry about 16 A, while the breaker trips only between 1.13 and 1.45 times 63 A, which is 71 to 91 A. The gap between them is where the cable burns before the breaker trips.</desc>
+  <style>
+    /*tokens*/:root{--surface:#f7f5f1;--panel:#ffffff;--ink:#202522;--muted:#555c58;--line:#ddd8cf;--accent:#9a4a26;--accent-soft:#f3e2d7;}@media (prefers-color-scheme:dark){:root{--surface:#181b19;--panel:#222624;--ink:#ecebe7;--muted:#b3b6b0;--line:#3a3f3c;--accent:#e8a27e;--accent-soft:#3a2a21;}}/*end-tokens*/
+    text{fill:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+    .h{font-size:38px;font-weight:700} .s{font-size:24px;font-weight:500} .p{font-size:28px;font-weight:700}
+    .m{font-size:22px;font-weight:600;fill:var(--muted)} .n{font-size:22px;font-weight:700}
+  </style>
+  <rect width="1200" height="900" fill="var(--surface)"/>
+  <text x="60" y="58" class="m">Elecivo · KB-0001</text>
+  <text x="1140" y="58" class="m" text-anchor="end">DRAFT • UNVERIFIED</text>
+  <text x="60" y="118" class="h">A breaker above the cable&#x27;s rating</text>
+  <path d="M60 140H1140" stroke="var(--ink)" stroke-width="2"/>
+  <g transform="translate(80 250)"><rect width="70" height="340" rx="3" fill="#e6e9ea" stroke="#263641" stroke-width="2.5"/><g transform="translate(0 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(35.0 52) scale(1.75)" stroke="#263641" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"><path vector-effect="non-scaling-stroke" d="M0 0L0 10M-2 11L2 11M2 5L-2 9M-2 5L2 9M-5 10L0 30M0 30V33H6V40H0V42M0 42A5 4 0 0 1 0 50M0 50L0 56" fill="none"/></g><rect x="14.0" y="168" width="42" height="104" rx="5" fill="#b9c1c5" stroke="#263641" stroke-width="2"/>
+  <rect x="20.0" y="174" width="30" height="50" rx="4" fill="#263641"/>
+  <text x="35.0" y="206" text-anchor="middle" style="fill:#ffffff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:16px;font-weight:700">ON</text><text x="35.0" y="258" text-anchor="middle" style="fill:#263641;font-family:system-ui,-apple-system,sans-serif;font-size:17px;font-weight:700">63 A</text></g>
+  <path d="M115 250V190" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M115 250V190" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M115 590V690H400" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M115 590V690H400" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="150" y="660" class="s">1.5 mm² lighting cable</text>
+  <text x="560" y="200" class="p">Current in amperes</text>
+  <path d="M560 560H1160.0" stroke="var(--ink)" stroke-width="2"/><path d="M560.0 560V574" stroke="var(--ink)" stroke-width="1.5"/><text x="560.0" y="604" text-anchor="middle" class="m">0</text><path d="M680.0 560V574" stroke="var(--ink)" stroke-width="1.5"/><text x="680.0" y="604" text-anchor="middle" class="m">20</text><path d="M800.0 560V574" stroke="var(--ink)" stroke-width="1.5"/><text x="800.0" y="604" text-anchor="middle" class="m">40</text><path d="M920.0 560V574" stroke="var(--ink)" stroke-width="1.5"/><text x="920.0" y="604" text-anchor="middle" class="m">60</text><path d="M1040.0 560V574" stroke="var(--ink)" stroke-width="1.5"/><text x="1040.0" y="604" text-anchor="middle" class="m">80</text>
+  <text x="560" y="250" class="s">Cable can carry</text>
+  <rect x="560" y="270" width="96.0" height="46" fill="var(--ink)"/>
+  <text x="670.0" y="304" class="n">≈ 16 A</text>
+  <text x="560" y="380" class="s">Breaker trips between 1.13 and 1.45 × 63 A</text>
+  <rect x="656.0" y="400" width="330.0" height="46" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="2" stroke-dasharray="8 6"/>
+  <rect x="986.0" y="400" width="120.0" height="46" fill="var(--ink)"/>
+  <text x="990.0" y="436" class="n" style="fill:#ffffff">71–91 A</text>
+  <text x="656.0" y="480" class="n" style="fill:var(--accent)">The cable burns before</text><text x="656.0" y="508" class="n" style="fill:var(--accent)">the breaker trips</text>
+  <path d="M656.0 270V446" stroke="var(--accent)" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="60" y="792" class="s">An oversized breaker, fitted so it stops tripping, leaves the cable unprotected.</text>
+  <text x="60" y="868" class="m">Fig. KB-0001 · current the cable carries against where the breaker trips · Concept only, not installation guidance</text>
+</svg>

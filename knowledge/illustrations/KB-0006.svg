@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">KB-0006: Isolate every phase together, with one main switch</title>
+  <desc id="desc">Two incoming arrangements drawn to scale on a DIN rail. In (a) three separate single-pole breakers carry L1, L2 and L3, each with its own lever, so they are not an isolator. In (b) one four-pole main switch carries L1, L2, L3 and N and one handle opens all poles together.</desc>
+  <style>
+    /*tokens*/:root{--surface:#f7f5f1;--panel:#ffffff;--ink:#202522;--muted:#555c58;--line:#ddd8cf;--accent:#9a4a26;--accent-soft:#f3e2d7;}@media (prefers-color-scheme:dark){:root{--surface:#181b19;--panel:#222624;--ink:#ecebe7;--muted:#b3b6b0;--line:#3a3f3c;--accent:#e8a27e;--accent-soft:#3a2a21;}}/*end-tokens*/
+    text{fill:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+    .h{font-size:38px;font-weight:700} .s{font-size:24px;font-weight:500} .p{font-size:28px;font-weight:700}
+    .m{font-size:22px;font-weight:600;fill:var(--muted)} .n{font-size:22px;font-weight:700}
+  </style>
+  <rect width="1200" height="900" fill="var(--surface)"/>
+  <text x="60" y="58" class="m">Elecivo · KB-0006</text>
+  <text x="1140" y="58" class="m" text-anchor="end">DRAFT • UNVERIFIED</text>
+  <text x="60" y="118" class="h">Isolate every phase together, with one main switch</text>
+  <path d="M60 140H1140" stroke="var(--ink)" stroke-width="2"/>
+  <path d="M600 170V760" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="8 8"/>
+  <text x="60" y="200" class="p">(a) Not an isolator</text>
+  <text x="640" y="200" class="p">(b) A main switch</text>
+  <rect x="40" y="430" width="420" height="140" fill="#cdd3d6" stroke="#263641" stroke-width="2"/><path d="M40 458H460M40 542H460" stroke="#263641" stroke-width="1.5"/><rect x="56" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="100" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="144" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="188" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="232" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="276" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="320" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="364" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="408" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/>
+  <g transform="translate(80 330)"><rect width="70" height="340" rx="3" fill="#e6e9ea" stroke="#263641" stroke-width="2.5"/><g transform="translate(0 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(35.0 52) scale(1.75)" stroke="#263641" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"><path vector-effect="non-scaling-stroke" d="M0 0L0 10M-2 11L2 11M2 5L-2 9M-2 5L2 9M-5 10L0 30M0 30V33H6V40H0V42M0 42A5 4 0 0 1 0 50M0 50L0 56" fill="none"/></g><rect x="14.0" y="168" width="42" height="104" rx="5" fill="#b9c1c5" stroke="#263641" stroke-width="2"/>
+  <rect x="20.0" y="174" width="30" height="50" rx="4" fill="#263641"/>
+  <text x="35.0" y="206" text-anchor="middle" style="fill:#ffffff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:16px;font-weight:700">ON</text></g><g transform="translate(170 330)"><rect width="70" height="340" rx="3" fill="#e6e9ea" stroke="#263641" stroke-width="2.5"/><g transform="translate(0 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(35.0 52) scale(1.75)" stroke="#263641" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"><path vector-effect="non-scaling-stroke" d="M0 0L0 10M-2 11L2 11M2 5L-2 9M-2 5L2 9M-5 10L0 30M0 30V33H6V40H0V42M0 42A5 4 0 0 1 0 50M0 50L0 56" fill="none"/></g><rect x="14.0" y="168" width="42" height="104" rx="5" fill="#b9c1c5" stroke="#263641" stroke-width="2"/>
+  <rect x="20.0" y="174" width="30" height="50" rx="4" fill="#263641"/>
+  <text x="35.0" y="206" text-anchor="middle" style="fill:#ffffff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:16px;font-weight:700">ON</text></g><g transform="translate(260 330)"><rect width="70" height="340" rx="3" fill="#e6e9ea" stroke="#263641" stroke-width="2.5"/><g transform="translate(0 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(35.0 52) scale(1.75)" stroke="#263641" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"><path vector-effect="non-scaling-stroke" d="M0 0L0 10M-2 11L2 11M2 5L-2 9M-2 5L2 9M-5 10L0 30M0 30V33H6V40H0V42M0 42A5 4 0 0 1 0 50M0 50L0 56" fill="none"/></g><rect x="14.0" y="168" width="42" height="104" rx="5" fill="#b9c1c5" stroke="#263641" stroke-width="2"/>
+  <rect x="20.0" y="174" width="30" height="50" rx="4" fill="#263641"/>
+  <text x="35.0" y="206" text-anchor="middle" style="fill:#ffffff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:16px;font-weight:700">ON</text></g>
+  <text x="115" y="314" text-anchor="middle" class="s">L1</text><text x="205" y="314" text-anchor="middle" class="s">L2</text><text x="295" y="314" text-anchor="middle" class="s">L3</text>
+  <circle cx="295" cy="550" r="30" fill="none" stroke="var(--accent)" stroke-width="3"/><path d="M273 572L480 630" stroke="var(--accent)" stroke-width="2"/><circle cx="480" cy="630" r="15" fill="var(--surface)" stroke="var(--accent)" stroke-width="2.5"/><text x="480" y="638" text-anchor="middle" class="n" style="fill:var(--accent)">1</text>
+  <rect x="640" y="430" width="400" height="140" fill="#cdd3d6" stroke="#263641" stroke-width="2"/><path d="M640 458H1040M640 542H1040" stroke="#263641" stroke-width="1.5"/><rect x="656" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="700" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="744" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="788" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="832" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="876" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="920" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/><rect x="964" y="490" width="28" height="20" rx="10" fill="var(--surface)" stroke="#263641" stroke-width="1.5"/>
+  <g transform="translate(680 330)"><rect width="280" height="340" rx="3" fill="#e6e9ea" stroke="#263641" stroke-width="2.5"/><g transform="translate(0 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(70 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(140 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(210 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(35.0 52) scale(1.75)" stroke="#263641" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"><path vector-effect="non-scaling-stroke" d="M0 0L0 10M-5 10L0 30M-5 10L5 10M0 30L0 40" fill="none"/><path vector-effect="non-scaling-stroke" d="M40 0L40 10M35 10L40 30M35 10L45 10M40 30L40 40" fill="none"/><path vector-effect="non-scaling-stroke" d="M80 0L80 10M75 10L80 30M75 10L85 10M80 30L80 40" fill="none"/><path vector-effect="non-scaling-stroke" d="M120 0L120 10M115 10L120 30M115 10L125 10M120 30L120 40" fill="none"/><path vector-effect="non-scaling-stroke" d="M-2.5 20L117.5 20" fill="none" stroke-dasharray="5 4"/></g><rect x="14.0" y="168" width="252" height="104" rx="5" fill="#b9c1c5" stroke="#263641" stroke-width="2"/>
+  <rect x="20.0" y="174" width="240" height="50" rx="4" fill="#263641"/>
+  <text x="140.0" y="206" text-anchor="middle" style="fill:#ffffff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:18px;font-weight:700">ON</text></g>
+  <text x="715" y="314" text-anchor="middle" class="s">L1</text><text x="785" y="314" text-anchor="middle" class="s">L2</text><text x="855" y="314" text-anchor="middle" class="s">L3</text><text x="925" y="314" text-anchor="middle" class="s">N</text>
+  <circle cx="820" cy="550" r="30" fill="none" stroke="var(--accent)" stroke-width="3"/><path d="M798 572L1020 630" stroke="var(--accent)" stroke-width="2"/><circle cx="1020" cy="630" r="15" fill="var(--surface)" stroke="var(--accent)" stroke-width="2.5"/><text x="1020" y="638" text-anchor="middle" class="n" style="fill:var(--accent)">2</text>
+  <text x="60" y="792" class="s"><tspan class="n" style="fill:var(--accent)">1</tspan>  Each pole has its own lever,</text>
+  <text x="60" y="822" class="s">so one phase can stay live.</text>
+  <text x="640" y="792" class="s"><tspan class="n" style="fill:var(--accent)">2</tspan>  One handle opens all poles</text>
+  <text x="640" y="822" class="s">together.</text>
+  <text x="60" y="868" class="m">Fig. KB-0006 · incoming isolation, devices to scale on a 35 mm rail · Concept only, not installation guidance</text>
+</svg>
