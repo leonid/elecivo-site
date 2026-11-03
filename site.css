@@ -98,7 +98,6 @@ main > section { margin-top: 56px; }
 
 .band { background: var(--accent-soft); border-radius: 12px; padding: 24px; }
 .band p { max-width: 70ch; }
-.mail { color: var(--muted); margin-left: 8px; }
 
 .site-footer { max-width: 1160px; margin: 0 auto; padding: 24px 16px 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.92rem; }
 .site-footer p { margin: 4px 0; }
