@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">KB-0110: Protect a circuit for its weakest cable</title>
+  <desc id="desc">Two versions of a socket circuit with a 1.5 mm² spur to a lamp branched off a 2.5 mm² cable. In (a) a 16 A breaker feeds both and the spur is unprotected. In (b) a 10 A breaker, the right one for the smaller cable, protects the whole circuit.</desc>
+  <style>
+    /*tokens*/:root{--surface:#f7f5f1;--panel:#ffffff;--ink:#202522;--muted:#555c58;--line:#ddd8cf;--accent:#9a4a26;--accent-soft:#f3e2d7;}@media (prefers-color-scheme:dark){:root{--surface:#181b19;--panel:#222624;--ink:#ecebe7;--muted:#b3b6b0;--line:#3a3f3c;--accent:#e8a27e;--accent-soft:#3a2a21;}}/*end-tokens*/
+    text{fill:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+    .h{font-size:38px;font-weight:700} .s{font-size:24px;font-weight:500} .p{font-size:28px;font-weight:700}
+    .m{font-size:22px;font-weight:600;fill:var(--muted)} .n{font-size:22px;font-weight:700}
+  </style>
+  <rect width="1200" height="900" fill="var(--surface)"/>
+  <text x="60" y="58" class="m">Elecivo · KB-0110</text>
+  <text x="1140" y="58" class="m" text-anchor="end">DRAFT • UNVERIFIED</text>
+  <text x="60" y="118" class="h">Protect a circuit for its weakest cable</text>
+  <path d="M60 140H1140" stroke="var(--ink)" stroke-width="2"/>
+  <path d="M600 170V760" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="8 8"/>
+  <text x="60" y="200" class="p">(a) Wrong: 16 A on a 1.5 mm² spur</text>
+  <text x="640" y="200" class="p">(b) Correct: 10 A for the whole circuit</text>
+  <g transform="translate(70 220)"><rect width="70" height="340" rx="3" fill="#e6e9ea" stroke="#263641" stroke-width="2.5"/><g transform="translate(0 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(35.0 52) scale(1.75)" stroke="#263641" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"><path vector-effect="non-scaling-stroke" d="M0 0L0 10M-2 11L2 11M2 5L-2 9M-2 5L2 9M-5 10L0 30M0 30V33H6V40H0V42M0 42A5 4 0 0 1 0 50M0 50L0 56" fill="none"/></g><rect x="14.0" y="168" width="42" height="104" rx="5" fill="#b9c1c5" stroke="#263641" stroke-width="2"/>
+  <rect x="20.0" y="174" width="30" height="50" rx="4" fill="#263641"/>
+  <text x="35.0" y="206" text-anchor="middle" style="fill:#ffffff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:16px;font-weight:700">ON</text><text x="35.0" y="258" text-anchor="middle" style="fill:#263641;font-family:system-ui,-apple-system,sans-serif;font-size:17px;font-weight:700">16 A</text></g>
+  <path d="M105 560V640H380" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M105 560V640H380" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="140" y="624" class="s">2.5 mm²</text><rect x="380" y="610" width="170" height="60" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="465.0" y="648" text-anchor="middle" class="s">Sockets</text>
+  <path d="M320 640V740H380" fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M320 640V740H380" fill="none" stroke="#7a4a2b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="738" class="s">1.5 mm²</text><rect x="380" y="710" width="170" height="60" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="465.0" y="748" text-anchor="middle" class="s">Lamp</text><text x="345" y="696" class="n" style="fill:var(--accent)">spur unprotected</text>
+  <g transform="translate(670 220)"><rect width="70" height="340" rx="3" fill="#e6e9ea" stroke="#263641" stroke-width="2.5"/><g transform="translate(0 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(35.0 52) scale(1.75)" stroke="#263641" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"><path vector-effect="non-scaling-stroke" d="M0 0L0 10M-2 11L2 11M2 5L-2 9M-2 5L2 9M-5 10L0 30M0 30V33H6V40H0V42M0 42A5 4 0 0 1 0 50M0 50L0 56" fill="none"/></g><rect x="14.0" y="168" width="42" height="104" rx="5" fill="#b9c1c5" stroke="#263641" stroke-width="2"/>
+  <rect x="20.0" y="174" width="30" height="50" rx="4" fill="#263641"/>
+  <text x="35.0" y="206" text-anchor="middle" style="fill:#ffffff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:16px;font-weight:700">ON</text><text x="35.0" y="258" text-anchor="middle" style="fill:#263641;font-family:system-ui,-apple-system,sans-serif;font-size:17px;font-weight:700">10 A</text></g>
+  <path d="M705 560V640H980" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M705 560V640H980" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="740" y="624" class="s">2.5 mm²</text><rect x="980" y="610" width="170" height="60" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="1065.0" y="648" text-anchor="middle" class="s">Sockets</text>
+  <path d="M920 640V740H980" fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M920 640V740H980" fill="none" stroke="#7a4a2b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="800" y="738" class="s">1.5 mm²</text><rect x="980" y="710" width="170" height="60" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="1065.0" y="748" text-anchor="middle" class="s">Lamp</text>
+  <text x="60" y="800" class="s">A 10 A breaker at the branch box would protect the spur instead.</text>
+  <text x="60" y="868" class="m">Fig. KB-0110 · 16 A against 10 A for a 1.5 mm² spur · Concept only, not installation guidance</text>
+</svg>

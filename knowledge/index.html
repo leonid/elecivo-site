@@ -38,6 +38,7 @@
   <article id="KB-0003" class="card" data-area="circuit" data-kind="solution">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Solution</span> <span class="badge">Circuit</span> <a class="id" href="#KB-0003">KB-0003</a></p>
     <p>When a lighting load is too large for one 10 A circuit, split it into several lighting circuits (for example ceiling fittings on one, wall lights on another) instead of moving up to a larger cable and breaker.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0003.svg" alt="Two arrangements of the same ceiling and wall lights. In (a) one 10 A breaker feeds both groups and is overloaded. In (b) the same fittings are split over two 10 A circuits, ceiling lights on one and wall lights on the other." width="1200" height="900">
     <p class="ref">Checked in Elecivo by <code>LIGHTING_CURRENT_027</code></p><p class="ref">Based on: <a href="https://cs-cs.net/63a-na-osveshhenie-chtoby-ne-vybivalo" rel="nofollow noopener">source 1</a></p>
   </article>
   <article id="KB-0006" class="card" data-area="board" data-kind="requirement">
@@ -54,6 +55,7 @@
   <article id="KB-0008" class="card" data-area="board" data-kind="anti-pattern">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Common mistake</span> <span class="badge">Board</span> <a class="id" href="#KB-0008">KB-0008</a></p>
     <p>Check the supply actually reaching the apartment. Here a three-phase supply was fed through to the flat on one phase behind a 16 A breaker, while the flat ran a cooker, two air conditioners, a jacuzzi with steam and underfloor heating.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0008.svg" alt="A three-phase riser with the flat fed on one phase only, through a 16 A breaker, while the flat runs a cooker, two air conditioners, a jacuzzi with steam and underfloor heating, a demand far above 16 A. The stack of loads is not to scale." width="1200" height="900">
     <p class="ref">IEC: IEC 60364-1:2005, 311 (maximum demand) — formerly cited as Part 3 <span class="unverified">(reference not yet verified)</span></p><p class="ref">Checked in Elecivo by <code>MAX_DEMAND_014</code></p><p class="ref">Based on: <a href="https://cs-cs.net/tryoxfaznaya-ekonomiya-i-pogorelosti" rel="nofollow noopener">source 1</a>, <a href="https://cs-cs.net/sh380-dif" rel="nofollow noopener">source 2</a>, <a href="https://cs-cs.net/3phase-budjet-master-klass" rel="nofollow noopener">source 3</a></p>
   </article>
   <article id="KB-0009" class="card" data-area="board" data-kind="anti-pattern">
@@ -70,6 +72,7 @@
   <article id="KB-0100" class="card" data-area="board" data-kind="practice">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Good practice</span> <span class="badge">Board</span> <a class="id" href="#KB-0100">KB-0100</a></p>
     <p>Bring the incoming supply onto a main isolating switch rather than a breaker: all incoming conductors land at one point, the whole board can be made dead in one action, and the switch looks different from the breakers so anyone finds it at once.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0100.svg" alt="The first rail of a board drawn to scale: the incoming supply lands on the four terminals of a wide four-pole main switch with one handle, followed by a row of narrow single-pole breakers. The switch looks different from the breakers." width="1200" height="900">
     <p class="ref">IEC: IEC 60364-5-53 (isolation and switching) <span class="unverified">(reference not yet verified)</span></p><p class="ref">Based on: <a href="https://cs-cs.net/pochemu-xoroshij-shhit-ne-mozhet-byt-malenkim" rel="nofollow noopener">source 1</a>, <a href="https://cs-cs.net/etajniye-shhity-dlya-kottedja-ekonomiya" rel="nofollow noopener">source 2</a>, <a href="https://cs-cs.net/pravila-bezopasnosti-v-shhitax-i-avtomatike" rel="nofollow noopener">source 3</a>, <a href="https://cs-cs.net/abb-module-series" rel="nofollow noopener">source 4</a>, <a href="https://cs-cs.net/nepravilniy-tryoxfaznyj-shhitok" rel="nofollow noopener">source 5</a>, <a href="https://cs-cs.net/kak-ne-nado-sobirat-shhity-konsult" rel="nofollow noopener">source 6</a></p>
   </article>
   <article id="KB-0107" class="card" data-area="board" data-kind="practice">
@@ -80,6 +83,7 @@
   <article id="KB-0110" class="card" data-area="protection" data-kind="requirement">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Requirement</span> <span class="badge">Protection</span> <a class="id" href="#KB-0110">KB-0110</a></p>
     <p>Size a circuit's protection for its weakest part. If a smaller cable is branched off a larger one (a 1.5 mm² spur to a lamp from a 2.5 mm² socket circuit), the whole circuit needs the breaker for the smaller cable, unless a breaker of the right rating is fitted at the branch point.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0110.svg" alt="Two versions of a socket circuit with a 1.5 mm² spur to a lamp branched off a 2.5 mm² cable. In (a) a 16 A breaker feeds both and the spur is unprotected. In (b) a 10 A breaker, the right one for the smaller cable, protects the whole circuit." width="1200" height="900">
     <p class="ref">IEC: IEC 60364-4-43:2008, 433.2 and 434.2 (reduction of cross-section); IEC 60364-5-53:2019, 533.4.2 / 533.4.3 <span class="unverified">(reference not yet verified)</span></p><p class="ref">Checked in Elecivo by <code>CABLE_OVERLOAD_002</code></p><p class="ref">Based on: <a href="https://cs-cs.net/prokladyvaem-kabeli-po-kvartire" rel="nofollow noopener">source 1</a>, <a href="https://cs-cs.net/shhit-dolzhen-proektirovatysa-zaranee" rel="nofollow noopener">source 2</a>, <a href="https://cs-cs.net/proektanty-porka" rel="nofollow noopener">source 3</a>, <a href="https://cs-cs.net/abb-module-series" rel="nofollow noopener">source 4</a>, <a href="https://cs-cs.net/podklyuchenie-varochnoj-i-duxovki" rel="nofollow noopener">source 5</a></p>
   </article>
   <article id="KB-0111" class="card" data-area="protection" data-kind="practice">
@@ -100,11 +104,13 @@
   <article id="KB-0114" class="card" data-area="circuit" data-kind="practice">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Good practice</span> <span class="badge">Circuit</span> <a class="id" href="#KB-0114">KB-0114</a></p>
     <p>Give each purpose its own circuit (lighting, sockets, ventilation, towel rail, router, alarm) so each can be switched off alone for repair and none affects the others. Grouping whatever happens to lie along the cable path (a corridor light, a storeroom floor heater and kitchen sockets on one cable) is the worst case.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0114.svg" alt="A board and three loads: a corridor light, floor heating and kitchen sockets. In (a) one cable runs from the board through all three. In (b) three cables leave the board, one per purpose." width="1200" height="900">
     <p class="ref">IEC: IEC 60364-1:2005, 314 <span class="unverified">(reference not yet verified)</span></p><p class="ref">Based on: <a href="https://cs-cs.net/prokladyvaem-kabeli-po-kvartire" rel="nofollow noopener">source 1</a>, <a href="https://cs-cs.net/bezdushnyj-proektnyj-yazyk" rel="nofollow noopener">source 2</a>, <a href="https://cs-cs.net/proektanty-porka" rel="nofollow noopener">source 3</a></p>
   </article>
   <article id="KB-0115" class="card" data-area="circuit" data-kind="practice">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Good practice</span> <span class="badge">Circuit</span> <a class="id" href="#KB-0115">KB-0115</a></p>
     <p>Feed a light from a lighting circuit even when its switch sits among sockets (a bedside lamp, worktop under-cabinet lighting): run the cable from the room's light switch on to the second switch, not from the nearest socket.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0115.svg" alt="A kitchen wall with the room light switch, the worktop light switch and a socket. In (a) the worktop light switch is fed by a cable from the room light switch. In (b) it is fed from the adjacent socket." width="1200" height="900">
     <p class="ref">Based on: <a href="https://cs-cs.net/prokladyvaem-kabeli-po-kvartire" rel="nofollow noopener">source 1</a></p>
   </article>
   <article id="KB-0116" class="card" data-area="circuit" data-kind="practice">
@@ -125,6 +131,7 @@
   <article id="KB-0131" class="card" data-area="board" data-kind="practice">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Good practice</span> <span class="badge">Board</span> <a class="id" href="#KB-0131">KB-0131</a></p>
     <p>Arrange the board so a standard comb busbar feeds devices directly: put the RCDs side by side on one busbar rather than wiring each from a distribution block, and when adding breakers extend the rail and the busbar instead of hanging devices off existing ones with short wire tails.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0131.svg" alt="Two rows of four two-pole RCDs. In (a) the RCDs are spread along the rail and each is fed by its own wire from a distribution block. In (b) the four RCDs stand side by side and one comb busbar feeds them directly." width="1200" height="900">
     <p class="ref">Based on: <a href="https://cs-cs.net/termozahita-shitov-irkutsk" rel="nofollow noopener">source 1</a>, <a href="https://cs-cs.net/tresh-kvartirnyj-shhitok-posle-remonta" rel="nofollow noopener">source 2</a>, <a href="https://cs-cs.net/texnologii-sborki-shhitov-malenkij-levlup-i-vyrabotavshijsya-stil" rel="nofollow noopener">source 3</a>, <a href="https://cs-cs.net/mistral-master-klass" rel="nofollow noopener">source 4</a></p>
   </article>
   <article id="KB-0132" class="card" data-area="bom" data-kind="anti-pattern">
@@ -176,6 +183,7 @@
   <article id="KB-0324" class="card" data-area="board" data-kind="anti-pattern">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Common mistake</span> <span class="badge">Board</span> <a class="id" href="#KB-0324">KB-0324</a></p>
     <p>Do not force two conductors under one device terminal: unless the terminal is rated for two, one of them is clamped poorly, heats and burns the device (here an RCD). Land each conductor on its own terminal of a busbar or N bar.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0324.svg" alt="An RCD and its neutral terminal. In (a) two conductors are forced under the one clamp, so one is clamped poorly and heats. In (b) the RCD feeds an N bar and each conductor has its own terminal." width="1200" height="900">
     <p class="ref">IEC: IEC 60364-5-52, 526, clause to confirm <span class="unverified">(reference not yet verified)</span></p><p class="ref">Based on: <a href="https://cs-cs.net/nebolshaya-pogorelost-opyat-rekonstrukciya-shhitka" rel="nofollow noopener">source 1</a>, <a href="https://cs-cs.net/nepravilniy-tryoxfaznyj-shhitok" rel="nofollow noopener">source 2</a>, <a href="https://cs-cs.net/montazh-v-podrozetnikax" rel="nofollow noopener">source 3</a></p>
   </article>
   <article id="KB-0401" class="card" data-area="protection" data-kind="solution">
@@ -251,6 +259,7 @@
   <article id="KB-0800" class="card" data-area="protection" data-kind="requirement">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Requirement</span> <span class="badge">Protection</span> <a class="id" href="#KB-0800">KB-0800</a></p>
     <p>On a weak supply (an old riser, a long rural line, a distant substation) the fault current at the far end of a circuit can be only a few hundred amperes or less, too little to reach a C-curve breaker's instantaneous band; a B-curve breaker, whose band starts lower, then still clears the fault quickly. Check the loop impedance rather than assume the curve is fine.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-0800.svg" alt="Two identical circuits at the end of a long thin supply line, with a fault current of about 120 amperes. A B16 breaker trips instantly above 5 times 16, which is 80 A, so it trips at once. A C16 breaker trips instantly only above 10 times 16, which is 160 A; 120 A is inside its 80 to 160 A band, so it may not trip at once." width="1200" height="900">
     <p class="ref">IEC: IEC 60364-4-41, 411.4.4 (Zs × Ia ≤ U0) <span class="unverified">(reference not yet verified)</span></p><p class="ref">Checked in Elecivo by <code>LOOP_IMPEDANCE_007</code></p><p class="ref">Based on: <a href="https://cs-cs.net/abb-cat-b" rel="nofollow noopener">source 1</a>, <a href="https://cs-cs.net/selectivnost-zametki" rel="nofollow noopener">source 2</a>, <a href="https://cs-cs.net/abb-module-series" rel="nofollow noopener">source 3</a></p>
   </article>
   <article id="KB-0803" class="card" data-area="protection" data-kind="requirement">
@@ -382,6 +391,7 @@
   <article id="KB-1305" class="card" data-area="circuit" data-kind="anti-pattern">
     <p class="tags"><span class="badge draft">Draft</span> <span class="badge">Common mistake</span> <span class="badge">Circuit</span> <a class="id" href="#KB-1305">KB-1305</a></p>
     <p>Check every large single-phase appliance against the incoming protection: an outdoor air-conditioning unit that needs a 32 A breaker on a flat with a 32 A incoming breaker gives no margin, and an overload may trip the whole flat. At such powers choose a three-phase unit, or allow for it with load shedding.</p>
+    <img class="card-art" src="../knowledge/illustrations/KB-1305.svg" alt="Breaker ratings in amperes. The incoming breaker is 32 A. A single-phase air-conditioning circuit also needs 32 A, as large as the incomer, so there is no margin. A three-phase unit on 3 times 16 A is well below the incomer." width="1200" height="900">
     <p class="ref">IEC: IEC 60364-5-53:2019, 535.1 (selectivity; formerly cited as 536.4), clause to confirm <span class="unverified">(reference not yet verified)</span></p><p class="ref">Checked in Elecivo by <code>SUPPLY_DISCRIMINATION_016</code></p><p class="ref">Based on: <a href="https://cs-cs.net/silovye-shhity-dlya-kvartiry-novaya-markirovka" rel="nofollow noopener">source 1</a></p>
   </article>
   <article id="KB-1308" class="card" data-area="board" data-kind="practice">

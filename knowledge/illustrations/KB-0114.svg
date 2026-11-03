@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">KB-0114: Give each purpose its own circuit</title>
+  <desc id="desc">A board and three loads: a corridor light, floor heating and kitchen sockets. In (a) one cable runs from the board through all three. In (b) three cables leave the board, one per purpose.</desc>
+  <style>
+    /*tokens*/:root{--surface:#f7f5f1;--panel:#ffffff;--ink:#202522;--muted:#555c58;--line:#ddd8cf;--accent:#9a4a26;--accent-soft:#f3e2d7;}@media (prefers-color-scheme:dark){:root{--surface:#181b19;--panel:#222624;--ink:#ecebe7;--muted:#b3b6b0;--line:#3a3f3c;--accent:#e8a27e;--accent-soft:#3a2a21;}}/*end-tokens*/
+    text{fill:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+    .h{font-size:38px;font-weight:700} .s{font-size:24px;font-weight:500} .p{font-size:28px;font-weight:700}
+    .m{font-size:22px;font-weight:600;fill:var(--muted)} .n{font-size:22px;font-weight:700}
+  </style>
+  <rect width="1200" height="900" fill="var(--surface)"/>
+  <text x="60" y="58" class="m">Elecivo · KB-0114</text>
+  <text x="1140" y="58" class="m" text-anchor="end">DRAFT • UNVERIFIED</text>
+  <text x="60" y="118" class="h">Give each purpose its own circuit</text>
+  <path d="M60 140H1140" stroke="var(--ink)" stroke-width="2"/>
+  <path d="M600 170V760" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="8 8"/>
+  <text x="60" y="200" class="p">(a) Wrong: along the cable path</text>
+  <text x="640" y="200" class="p">(b) Correct: one per purpose</text>
+  <rect x="50" y="330" width="90" height="220" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2.5"/><text x="95" y="448" text-anchor="middle" class="s">board</text>
+  <rect x="350" y="260" width="200" height="70" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="450" y="304" text-anchor="middle" class="s">Corridor light</text>
+  <path d="M140 440H245V295H350" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M140 440H245V295H350" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="350" y="420" width="200" height="70" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="450" y="464" text-anchor="middle" class="s">Floor heating</text>
+  <path d="M450 330V420" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M450 330V420" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="350" y="580" width="200" height="70" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="450" y="624" text-anchor="middle" class="s">Kitchen sockets</text>
+  <path d="M450 490V580" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M450 490V580" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="650" y="330" width="90" height="220" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2.5"/><text x="695" y="448" text-anchor="middle" class="s">board</text>
+  <rect x="950" y="260" width="200" height="70" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="1050" y="304" text-anchor="middle" class="s">Corridor light</text>
+  <path d="M740 435H845V295H950" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M740 435H845V295H950" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="950" y="420" width="200" height="70" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="1050" y="464" text-anchor="middle" class="s">Floor heating</text>
+  <path d="M740 455H845V455H950" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M740 455H845V455H950" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="950" y="580" width="200" height="70" rx="6" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="1050" y="624" text-anchor="middle" class="s">Kitchen sockets</text>
+  <path d="M740 475H845V615H950" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M740 475H845V615H950" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="792" class="s">One fault takes all three off.</text>
+  <text x="640" y="792" class="s">Each can be switched off alone for repair.</text>
+  <text x="60" y="868" class="m">Fig. KB-0114 · one cable through three loads, against one cable per load · Concept only, not installation guidance</text>
+</svg>

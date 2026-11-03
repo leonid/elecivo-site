@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">KB-0324: One conductor under each terminal</title>
+  <desc id="desc">An RCD and its neutral terminal. In (a) two conductors are forced under the one clamp, so one is clamped poorly and heats. In (b) the RCD feeds an N bar and each conductor has its own terminal.</desc>
+  <style>
+    /*tokens*/:root{--surface:#f7f5f1;--panel:#ffffff;--ink:#202522;--muted:#555c58;--line:#ddd8cf;--accent:#9a4a26;--accent-soft:#f3e2d7;}@media (prefers-color-scheme:dark){:root{--surface:#181b19;--panel:#222624;--ink:#ecebe7;--muted:#b3b6b0;--line:#3a3f3c;--accent:#e8a27e;--accent-soft:#3a2a21;}}/*end-tokens*/
+    text{fill:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+    .h{font-size:38px;font-weight:700} .s{font-size:24px;font-weight:500} .p{font-size:28px;font-weight:700}
+    .m{font-size:22px;font-weight:600;fill:var(--muted)} .n{font-size:22px;font-weight:700}
+  </style>
+  <rect width="1200" height="900" fill="var(--surface)"/>
+  <text x="60" y="58" class="m">Elecivo · KB-0324</text>
+  <text x="1140" y="58" class="m" text-anchor="end">DRAFT • UNVERIFIED</text>
+  <text x="60" y="118" class="h">One conductor under each terminal</text>
+  <path d="M60 140H1140" stroke="var(--ink)" stroke-width="2"/>
+  <path d="M600 170V760" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="8 8"/>
+  <text x="60" y="200" class="p">(a) Wrong: two under one clamp</text>
+  <text x="640" y="200" class="p">(b) Correct: an N bar</text>
+  <g transform="translate(90 230)"><rect width="140" height="340" rx="3" fill="#e6e9ea" stroke="#263641" stroke-width="2.5"/><g transform="translate(0 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(70 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(35.0 52) scale(1.75)" stroke="#263641" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"><path vector-effect="non-scaling-stroke" d="M0 0L0 10M-5 10L0 30M0 30L0 40" fill="none"/><path vector-effect="non-scaling-stroke" d="M40 0L40 10M35 10L40 30M40 30L40 40" fill="none"/><path vector-effect="non-scaling-stroke" d="M-2.5 20L37.5 20" fill="none" stroke-dasharray="5 4"/><path vector-effect="non-scaling-stroke" d="M-6 35A26 2 0 1 0 46 35A26 2 0 1 0 -6 35" fill="none"/><path vector-effect="non-scaling-stroke" d="M-2.5 20L-8 20M-8 20L-8 35M-8 35L-6 35" fill="none" stroke-dasharray="5 4"/></g><rect x="14.0" y="168" width="112" height="104" rx="5" fill="#b9c1c5" stroke="#263641" stroke-width="2"/>
+  <rect x="20.0" y="174" width="100" height="50" rx="4" fill="#263641"/>
+  <text x="70.0" y="206" text-anchor="middle" style="fill:#ffffff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:18px;font-weight:700">ON</text><rect x="106" y="130" width="22" height="22" rx="4" fill="#b9c1c5" stroke="#263641" stroke-width="1.5"/><text x="117" y="147" text-anchor="middle" style="fill:#263641;font-family:system-ui,sans-serif;font-size:15px;font-weight:700">T</text></g>
+  <path d="M125 720V690H189V564" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M125 720V690H189V564" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M265 720V690H201V564" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M265 720V690H201V564" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="195" cy="552" r="30" fill="none" stroke="var(--accent)" stroke-width="3"/><path d="M173 574L315 474" stroke="var(--accent)" stroke-width="2"/><circle cx="315" cy="474" r="15" fill="var(--surface)" stroke="var(--accent)" stroke-width="2.5"/><text x="315" y="482" text-anchor="middle" class="n" style="fill:var(--accent)">1</text>
+  <g transform="translate(690 230)"><rect width="140" height="340" rx="3" fill="#e6e9ea" stroke="#263641" stroke-width="2.5"/><g transform="translate(0 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(70 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(35.0 52) scale(1.75)" stroke="#263641" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"><path vector-effect="non-scaling-stroke" d="M0 0L0 10M-5 10L0 30M0 30L0 40" fill="none"/><path vector-effect="non-scaling-stroke" d="M40 0L40 10M35 10L40 30M40 30L40 40" fill="none"/><path vector-effect="non-scaling-stroke" d="M-2.5 20L37.5 20" fill="none" stroke-dasharray="5 4"/><path vector-effect="non-scaling-stroke" d="M-6 35A26 2 0 1 0 46 35A26 2 0 1 0 -6 35" fill="none"/><path vector-effect="non-scaling-stroke" d="M-2.5 20L-8 20M-8 20L-8 35M-8 35L-6 35" fill="none" stroke-dasharray="5 4"/></g><rect x="14.0" y="168" width="112" height="104" rx="5" fill="#b9c1c5" stroke="#263641" stroke-width="2"/>
+  <rect x="20.0" y="174" width="100" height="50" rx="4" fill="#263641"/>
+  <text x="70.0" y="206" text-anchor="middle" style="fill:#ffffff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:18px;font-weight:700">ON</text><rect x="106" y="130" width="22" height="22" rx="4" fill="#b9c1c5" stroke="#263641" stroke-width="1.5"/><text x="117" y="147" text-anchor="middle" style="fill:#263641;font-family:system-ui,sans-serif;font-size:15px;font-weight:700">T</text></g>
+  <path d="M795 564V660" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M795 564V660" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="775" y="660" width="330" height="34" rx="3" fill="#c98f5a" stroke="#263641" stroke-width="2.5"/>
+  <path d="M815 694V760" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M815 694V760" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M905 694V760" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M905 694V760" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M995 694V760" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M995 694V760" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1085 694V760" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M1085 694V760" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="925" y="650" text-anchor="middle" class="s">N bar</text>
+  <text x="60" y="800" class="s"><tspan class="n" style="fill:var(--accent)">1</tspan>  One of the two is clamped poorly and heats.</text>
+  <text x="640" y="800" class="s">One conductor on each terminal.</text>
+  <text x="60" y="868" class="m">Fig. KB-0324 · two conductors under one terminal, against an N bar · Concept only, not installation guidance</text>
+</svg>

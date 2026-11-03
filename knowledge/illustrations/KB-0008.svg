@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">KB-0008: Check the supply that reaches the flat</title>
+  <desc id="desc">A three-phase riser with the flat fed on one phase only, through a 16 A breaker, while the flat runs a cooker, two air conditioners, a jacuzzi with steam and underfloor heating, a demand far above 16 A. The stack of loads is not to scale.</desc>
+  <style>
+    /*tokens*/:root{--surface:#f7f5f1;--panel:#ffffff;--ink:#202522;--muted:#555c58;--line:#ddd8cf;--accent:#9a4a26;--accent-soft:#f3e2d7;}@media (prefers-color-scheme:dark){:root{--surface:#181b19;--panel:#222624;--ink:#ecebe7;--muted:#b3b6b0;--line:#3a3f3c;--accent:#e8a27e;--accent-soft:#3a2a21;}}/*end-tokens*/
+    text{fill:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+    .h{font-size:38px;font-weight:700} .s{font-size:24px;font-weight:500} .p{font-size:28px;font-weight:700}
+    .m{font-size:22px;font-weight:600;fill:var(--muted)} .n{font-size:22px;font-weight:700}
+  </style>
+  <rect width="1200" height="900" fill="var(--surface)"/>
+  <text x="60" y="58" class="m">Elecivo · KB-0008</text>
+  <text x="1140" y="58" class="m" text-anchor="end">DRAFT • UNVERIFIED</text>
+  <text x="60" y="118" class="h">Check the supply that reaches the flat</text>
+  <path d="M60 140H1140" stroke="var(--ink)" stroke-width="2"/>
+  <text x="60" y="200" class="p">Three-phase riser</text>
+  <text x="700" y="200" class="p">What the flat runs</text>
+  <path d="M60 250H365V334" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M60 250H365V334" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M60 290H240" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M60 290H240" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M60 330H240" fill="none" stroke="var(--ink)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M60 330H240" fill="none" stroke="#7a4a2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70" y="240" class="m">L1</text><text x="70" y="280" class="m">L2</text><text x="70" y="320" class="m">L3</text>
+  <text x="60" y="380" class="s">L2 and L3 do</text><text x="60" y="410" class="s">not reach the flat</text>
+  <g transform="translate(330 334)"><rect width="70" height="340" rx="3" fill="#e6e9ea" stroke="#263641" stroke-width="2.5"/><g transform="translate(0 0)" stroke="#263641" stroke-linejoin="round">
+  <rect x="21" y="0" width="28" height="9" fill="#7d878c" stroke="none"/><rect x="21" y="331" width="28" height="9" fill="#7d878c" stroke="none"/>
+  <path d="M0 48H70M0 292H70" stroke-width="1.5"/>
+  <g stroke-width="1.5"><circle cx="35" cy="28" r="11" fill="#c9cfd2"/><path d="M28 28H42M35 21V35"/>
+  <circle cx="35" cy="312" r="11" fill="#c9cfd2"/><path d="M28 312H42M35 305V319"/></g>
+</g><g transform="translate(35.0 52) scale(1.75)" stroke="#263641" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"><path vector-effect="non-scaling-stroke" d="M0 0L0 10M-2 11L2 11M2 5L-2 9M-2 5L2 9M-5 10L0 30M0 30V33H6V40H0V42M0 42A5 4 0 0 1 0 50M0 50L0 56" fill="none"/></g><rect x="14.0" y="168" width="42" height="104" rx="5" fill="#b9c1c5" stroke="#263641" stroke-width="2"/>
+  <rect x="20.0" y="174" width="30" height="50" rx="4" fill="#263641"/>
+  <text x="35.0" y="206" text-anchor="middle" style="fill:#ffffff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:16px;font-weight:700">ON</text><text x="35.0" y="258" text-anchor="middle" style="fill:#263641;font-family:system-ui,-apple-system,sans-serif;font-size:17px;font-weight:700">16 A</text></g>
+  <text x="440" y="660" class="s">the whole flat</text><text x="440" y="690" class="s">on one phase</text>
+  <rect x="700" y="230" width="380" height="90" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="890" y="286" text-anchor="middle" class="s">Cooker</text><rect x="700" y="330" width="380" height="90" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="890" y="386" text-anchor="middle" class="s">Two air conditioners</text><rect x="700" y="430" width="380" height="90" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="890" y="486" text-anchor="middle" class="s">Jacuzzi with steam</text><rect x="700" y="530" width="380" height="90" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><text x="890" y="586" text-anchor="middle" class="s">Underfloor heating</text>
+  <path d="M685 230V630" stroke="var(--accent)" stroke-width="4"/>
+  <path d="M680 230H700M680 630H700" stroke="var(--accent)" stroke-width="3"/>
+  <text x="700" y="680" class="n" style="fill:var(--accent)">demand far above 16 A</text>
+  <text x="60" y="792" class="s">Check the supply that actually reaches the apartment; the stack is not to scale.</text>
+  <text x="60" y="868" class="m">Fig. KB-0008 · one phase, 16 A, against the loads · Concept only, not installation guidance</text>
+</svg>
