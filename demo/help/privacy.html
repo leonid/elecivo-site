@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f4f0" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <title>Privacy notice · Elecivo</title>
+    <style>
+      :root { color-scheme: light; --ink: #202522; --muted: #626a65; --line: #e1e3de; --accent: #9a4a2c; --paper: #fff; --bg: #f5f4f0; }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+      main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+      header { margin-bottom: 28px; }
+      header p { color: var(--muted); margin: 4px 0 0; }
+      h1 { font-size: 30px; line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
+      h2 { font-size: 21px; margin: 40px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+      h3 { font-size: 16px; margin: 22px 0 4px; }
+      p, li { margin: 6px 0; }
+      ol, ul { padding-left: 22px; }
+      a { color: var(--accent); }
+      table { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 14px; }
+      th, td { text-align: left; padding: 6px 10px; border: 1px solid var(--line); vertical-align: top; }
+      th { background: var(--paper); font-weight: 600; }
+      .lang-bar { display: flex; gap: 8px; margin-bottom: 28px; flex-wrap: wrap; }
+      .lang-bar button { padding: 5px 14px; border: 1px solid var(--line); border-radius: 20px; background: var(--paper); cursor: pointer; font: inherit; font-size: 14px; color: var(--ink); }
+      .lang-bar button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+      .lang-section { display: none; }
+      .lang-section.active { display: block; }
+      .placeholder { background: #fff3cd; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
+      .notice { background: var(--paper); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 0 8px 8px 0; margin: 12px 0; font-size: 14px; }
+      @media (max-width: 560px) { h1 { font-size: 25px; } th, td { padding: 4px 6px; } }
+      @media print { body { background: #fff; } .lang-bar { display: none; } .lang-section { display: none; } .lang-section[lang="en"] { display: block; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 id="page-title">Privacy notice</h1>
+        <p id="page-sub">How Elecivo handles your data, and your rights under GDPR.</p>
+      </header>
+
+      <div class="lang-bar" role="group" aria-label="Language">
+        <button onclick="setLang('en')" class="active" lang="en">English</button>
+        <button onclick="setLang('bg')" lang="bg">Български</button>
+        <button onclick="setLang('de')" lang="de">Deutsch</button>
+        <button onclick="setLang('ru')" lang="ru">Русский</button>
+      </div>
+
+      <!-- ═══════════════════════════════════════ ENGLISH ═══════════════════════════════════════ -->
+      <div class="lang-section active" lang="en">
+        <div class="notice">This notice applies to users of Elecivo (elecivo.eu). It is provided under Art. 13 of the EU General Data Protection Regulation (GDPR) and the Bulgarian Personal Data Protection Act (ЗЗЛД).</div>
+
+        <h2>1. Controller</h2>
+        <p>The data controller is <span class="placeholder">[COMPANY NAME]</span>, <span class="placeholder">[ЕИК / UIC: XXXXXXXXX]</span>, <span class="placeholder">[ADDRESS]</span>, e-mail: <span class="placeholder">[privacy@elecivo.eu]</span>.</p>
+        <p>No data protection officer has been designated (the GDPR Art. 37 thresholds are not met).</p>
+
+        <h2>2. Data we hold and why</h2>
+        <table>
+          <tr><th>Data</th><th>Purpose</th><th>Legal basis</th><th>Kept for</th></tr>
+          <tr>
+            <td>E-mail, name, password hash, sign-in sessions, verification and reset tokens</td>
+            <td>Account creation, authentication and security</td>
+            <td>Art. 6(1)(b) — contract</td>
+            <td>For the life of the account; sessions expire in 30 days; tokens expire on use or within their validity period. After account deletion: 30 days, then purged.</td>
+          </tr>
+          <tr>
+            <td>Project data (rooms, devices, circuits, documents, revisions, images, company profile, catalogues)</td>
+            <td>Storing and syncing your electrical design work</td>
+            <td>Art. 6(1)(b) — contract<br><em>Elecivo is a processor for personal data (client names, crew data) that your account holds on behalf of your own clients and employees.</em></td>
+            <td>Until the project owner deletes the project or the account. Backups: 30 days.</td>
+          </tr>
+          <tr>
+            <td>Pending invitation: invitee e-mail address</td>
+            <td>Delivering a project invitation to someone who may not yet have an account</td>
+            <td>Art. 6(1)(f) — legitimate interest of the account sharing the project</td>
+            <td>Until the invitation is accepted, declined or withdrawn by the project owner.</td>
+          </tr>
+          <tr>
+            <td>Server logs (request failures, browser error reports including account ID)</td>
+            <td>Service security and availability</td>
+            <td>Art. 6(1)(f) — legitimate interest</td>
+            <td>30 days</td>
+          </tr>
+          <tr>
+            <td>Pilot usage metrics (counts of revisions, rooms, devices, circuits, area, hours planned/logged, BOM deviation — keyed to a hash of the project ID)</td>
+            <td>Understanding how the tool is used in order to improve it (D-e)</td>
+            <td>Art. 6(1)(f) — legitimate interest</td>
+            <td>Computed on request; not stored separately.</td>
+          </tr>
+          <tr>
+            <td>Browser storage (IndexedDB, session cookie)</td>
+            <td>Storing your projects on this device and keeping you signed in</td>
+            <td>Strictly necessary for the service you requested (ePrivacy Directive Art. 5(3)); no consent needed</td>
+            <td>On your device; cleared when you uninstall or clear site data.</td>
+          </tr>
+        </table>
+
+        <h2>3. Processor role for your clients' data</h2>
+        <p>When you enter client names, addresses or crew rates into a project, you are the controller of that personal data. Elecivo processes it only to store and sync the project on your behalf. You remain responsible for informing your clients and crew about how their data is handled (GDPR Art. 14).</p>
+
+        <h2>4. Processors we use</h2>
+        <p>We share data only with these processors, all in the European Union:</p>
+        <ul>
+          <li><strong>Scaleway SAS</strong>, 8 rue de la Ville l'Evêque, 75008 Paris, France — cloud host (servers, backups) and transactional e-mail (TEM). No transfer outside the EEA.</li>
+        </ul>
+
+        <h2>5. Your rights</h2>
+        <ul>
+          <li><strong>Access (Art. 15) and portability (Art. 20):</strong> use <em>Export my data</em> in Account &amp; sync to download all your account data and projects as JSON.</li>
+          <li><strong>Erasure (Art. 17):</strong> use <em>Delete account</em> in Account &amp; sync. Project data shared with others is handled as described above.</li>
+          <li><strong>Rectification (Art. 16):</strong> update your name and e-mail in Account &amp; sync.</li>
+          <li><strong>Restriction (Art. 18) and objection (Art. 21):</strong> contact us at <span class="placeholder">[privacy@elecivo.eu]</span>. We respond within one month.</li>
+          <li><strong>Withdraw consent:</strong> we do not rely on consent as a legal basis; this right is not applicable.</li>
+          <li><strong>No automated decision-making or profiling</strong> with legal or significant effects.</li>
+        </ul>
+
+        <h2>6. Complaints</h2>
+        <p>You have the right to lodge a complaint with the Bulgarian Commission for Personal Data Protection (КЗЛД), which is the lead supervisory authority for Elecivo:</p>
+        <p>Commission for Personal Data Protection (КЗЛД)<br>
+        бул. „Проф. Цветан Лазаров" № 2, София 1592, Bulgaria<br>
+        <a href="https://www.cpdp.bg/" target="_blank" rel="noopener">www.cpdp.bg</a></p>
+        <p>You may also complain to the supervisory authority in your country of habitual residence or place of work (Art. 77 GDPR).</p>
+
+        <h2>7. Changes to this notice</h2>
+        <p>If we change how we handle your data in a material way, we will inform you by e-mail before the change takes effect. The current version is always at this address.</p>
+        <p><small>Last updated: 2026-10-26</small></p>
+      </div>
+
+      <!-- ═══════════════════════════════════════ BULGARIAN ═══════════════════════════════════════ -->
+      <div class="lang-section" lang="bg">
+        <div class="notice">Настоящото уведомление се прилага за потребителите на Elecivo (elecivo.eu). Предоставя се по чл. 13 от Общия регламент относно защитата на данните (ОРЗД) и Закона за защита на личните данни (ЗЗЛД).</div>
+
+        <h2>1. Администратор</h2>
+        <p>Администраторът на лични данни е <span class="placeholder">[НАИМЕНОВАНИЕ НА ДРУЖЕСТВОТО]</span>, ЕИК <span class="placeholder">[XXXXXXXXX]</span>, <span class="placeholder">[АДРЕС]</span>, имейл: <span class="placeholder">[privacy@elecivo.eu]</span>.</p>
+        <p>Не е определено длъжностно лице по защита на данните (праговете по чл. 37 ОРЗД не са достигнати).</p>
+
+        <h2>2. Данни, които съхраняваме, и защо</h2>
+        <table>
+          <tr><th>Данни</th><th>Цел</th><th>Правно основание</th><th>Срок на съхранение</th></tr>
+          <tr>
+            <td>Имейл, име, хеш на парола, сесии, токени за верификация и нулиране</td>
+            <td>Регистрация, автентикация и сигурност на акаунта</td>
+            <td>Чл. 6(1)(б) — договор</td>
+            <td>За срока на акаунта; сесиите изтичат след 30 дни; токените изтичат при използване или в рамките на валидността им. След изтриване на акаунта: 30 дни.</td>
+          </tr>
+          <tr>
+            <td>Проектни данни (помещения, устройства, вериги, документи, ревизии, изображения, фирмен профил, каталози)</td>
+            <td>Съхранение и синхронизация на вашите електропроекти</td>
+            <td>Чл. 6(1)(б) — договор<br><em>Elecivo е обработващ при лични данни (имена на клиенти, данни за персонал), съхранявани в проекти от ваше ime по отношение на вашите клиенти и служители.</em></td>
+            <td>До изтриване на проекта или акаунта от собственика. Архиви: 30 дни.</td>
+          </tr>
+          <tr>
+            <td>Изчакваща покана: имейл адрес на поканения</td>
+            <td>Доставяне на покана за проект до лице, което може да няма акаунт</td>
+            <td>Чл. 6(1)(е) — легитимен интерес на акаунта, споделящ проекта</td>
+            <td>До приемане, отказ или оттегляне на поканата от собственика на проекта.</td>
+          </tr>
+          <tr>
+            <td>Сървърни журнали (грешки при заявки, доклади за грешки в браузъра с ID на акаунт)</td>
+            <td>Сигурност и наличност на услугата</td>
+            <td>Чл. 6(1)(е) — легитимен интерес</td>
+            <td>30 дни</td>
+          </tr>
+          <tr>
+            <td>Показатели за използване (брой ревизии, помещения, устройства, вериги, площ, часове — ключувани по хеш на ID на проекта)</td>
+            <td>Разбиране на начина на използване на инструмента с цел подобряването му</td>
+            <td>Чл. 6(1)(е) — легитимен интерес</td>
+            <td>Изчисляват се при поискване; не се съхраняват отделно.</td>
+          </tr>
+          <tr>
+            <td>Браузърно съхранение (IndexedDB, бисквитка за сесия)</td>
+            <td>Съхранение на проектите ви на устройството и поддържане на влизането</td>
+            <td>Необходимо за услугата (чл. 5(3) от Директивата за ePrivacy); съгласие не е необходимо</td>
+            <td>На вашето устройство; изчиства се при деинсталиране или изчистване на данните на сайта.</td>
+          </tr>
+        </table>
+
+        <h2>3. Ролята ни като обработващ за данните на вашите клиенти</h2>
+        <p>Когато въвеждате имена, адреси на клиенти или ставки на персонал в проект, вие сте администратор на тези лични данни. Elecivo ги обработва единствено за съхранение и синхронизация на проекта от ваше ime. Вие носите отговорността да информирате своите клиенти и персонал за начина на обработка на техните данни (чл. 14 ОРЗД).</p>
+
+        <h2>4. Обработващи, които използваме</h2>
+        <p>Споделяме данни само с тези обработващи, всички в Европейския съюз:</p>
+        <ul>
+          <li><strong>Scaleway SAS</strong>, 8 rue de la Ville l'Evêque, 75008 Париж, Франция — облачен хостинг (сървъри, архиви) и транзакционен имейл (TEM). Без трансфер извън ЕИП.</li>
+        </ul>
+
+        <h2>5. Вашите права</h2>
+        <ul>
+          <li><strong>Достъп (чл. 15) и преносимост (чл. 20):</strong> използвайте „Изтегли данните ми" в „Акаунт и синхронизация", за да изтеглите всички ваши данни и проекти в JSON формат.</li>
+          <li><strong>Изтриване (чл. 17):</strong> използвайте „Изтрий акаунт" в „Акаунт и синхронизация".</li>
+          <li><strong>Коригиране (чл. 16):</strong> актуализирайте вашето име и имейл в „Акаунт и синхронизация".</li>
+          <li><strong>Ограничение (чл. 18) и възражение (чл. 21):</strong> свържете се с нас на <span class="placeholder">[privacy@elecivo.eu]</span>. Отговаряме до един месец.</li>
+          <li><strong>Без автоматизирано вземане на решения</strong> с правни или значителни последствия.</li>
+        </ul>
+
+        <h2>6. Жалби</h2>
+        <p>Имате право да подадете жалба до Комисията за защита на личните данни (КЗЛД), която е водещ надзорен орган за Elecivo:</p>
+        <p>Комисия за защита на личните данни<br>
+        бул. „Проф. Цветан Лазаров" № 2, София 1592<br>
+        <a href="https://www.cpdp.bg/" target="_blank" rel="noopener">www.cpdp.bg</a></p>
+        <p>Можете също да подадете жалба до надзорния орган в страната на обичайното ви местопребиваване или месторабота (чл. 77 ОРЗД).</p>
+
+        <h2>7. Промени в уведомлението</h2>
+        <p>Ако променим по същество начина, по който обработваме вашите данни, ще ви информираме по имейл преди влизането на промяната в сила.</p>
+        <p><small>Последна актуализация: 2026-10-26</small></p>
+      </div>
+
+      <!-- ═══════════════════════════════════════ GERMAN ═══════════════════════════════════════ -->
+      <div class="lang-section" lang="de">
+        <div class="notice">Diese Datenschutzhinweise gelten für Nutzer von Elecivo (elecivo.eu). Sie werden nach Art. 13 der Datenschutz-Grundverordnung (DSGVO) und dem bulgarischen Datenschutzgesetz (ЗЗЛД) erteilt.</div>
+
+        <h2>1. Verantwortlicher</h2>
+        <p>Verantwortlicher im Sinne der DSGVO ist <span class="placeholder">[FIRMENNAME]</span>, <span class="placeholder">[ЕИК / UIC: XXXXXXXXX]</span>, <span class="placeholder">[ADRESSE]</span>, E-Mail: <span class="placeholder">[privacy@elecivo.eu]</span>.</p>
+        <p>Es wurde kein Datenschutzbeauftragter bestellt (die Schwellenwerte des Art. 37 DSGVO sind nicht erreicht).</p>
+
+        <h2>2. Verarbeitete Daten und Zwecke</h2>
+        <table>
+          <tr><th>Daten</th><th>Zweck</th><th>Rechtsgrundlage</th><th>Speicherdauer</th></tr>
+          <tr>
+            <td>E-Mail, Name, Passwort-Hash, Sitzungen, Verifizierungs- und Reset-Token</td>
+            <td>Kontoerstellung, Authentifizierung und Sicherheit</td>
+            <td>Art. 6(1)(b) DSGVO — Vertrag</td>
+            <td>Für die Lebensdauer des Kontos; Sitzungen laufen nach 30 Tagen ab; Token verfallen bei Verwendung oder innerhalb ihrer Gültigkeitsdauer. Nach Kontolöschung: 30 Tage, dann gelöscht.</td>
+          </tr>
+          <tr>
+            <td>Projektdaten (Räume, Geräte, Stromkreise, Dokumente, Revisionen, Bilder, Firmenprofil, Kataloge)</td>
+            <td>Speicherung und Synchronisierung Ihrer Elektroprojekte</td>
+            <td>Art. 6(1)(b) DSGVO — Vertrag<br><em>Für personenbezogene Daten Ihrer Kunden und Mitarbeiter (Namen, Adressen, Lohnsätze) ist Elecivo Auftragsverarbeiter; Sie bleiben Verantwortlicher.</em></td>
+            <td>Bis zur Löschung des Projekts oder des Kontos durch den Eigentümer. Backups: 30 Tage.</td>
+          </tr>
+          <tr>
+            <td>Ausstehende Einladung: E-Mail-Adresse des Eingeladenen</td>
+            <td>Zustellung einer Projekteinladung an eine Person, die möglicherweise noch kein Konto hat</td>
+            <td>Art. 6(1)(f) DSGVO — berechtigtes Interesse des einladenden Kontos</td>
+            <td>Bis zur Annahme, Ablehnung oder zum Widerruf durch den Projekteigentümer.</td>
+          </tr>
+          <tr>
+            <td>Server-Logs (Anfragefehler, Browser-Fehlerberichte mit Konto-ID)</td>
+            <td>Sicherheit und Verfügbarkeit des Dienstes</td>
+            <td>Art. 6(1)(f) DSGVO — berechtigtes Interesse</td>
+            <td>30 Tage</td>
+          </tr>
+          <tr>
+            <td>Pilotmetriken (Anzahl von Revisionen, Räumen, Geräten, Fläche, Stunden, BOM-Abweichung — pseudonymisiert über einen Hash der Projekt-ID)</td>
+            <td>Verständnis der Nutzung des Tools zur Verbesserung</td>
+            <td>Art. 6(1)(f) DSGVO — berechtigtes Interesse</td>
+            <td>Werden auf Anfrage berechnet; nicht separat gespeichert.</td>
+          </tr>
+          <tr>
+            <td>Browser-Speicher (IndexedDB, Sitzungs-Cookie)</td>
+            <td>Speicherung Ihrer Projekte auf diesem Gerät und Aufrechterhalten der Anmeldung</td>
+            <td>Unbedingt erforderlich für den angefragten Dienst (Art. 5(3) ePrivacy-Richtlinie); keine Einwilligung erforderlich</td>
+            <td>Auf Ihrem Gerät; wird bei Deinstallation oder beim Löschen von Website-Daten entfernt.</td>
+          </tr>
+        </table>
+
+        <h2>3. Auftragsverarbeitung für Daten Ihrer Kunden</h2>
+        <p>Wenn Sie Kundennamen, Adressen oder Mitarbeiterlöhne in ein Projekt eingeben, sind Sie für diese personenbezogenen Daten Verantwortlicher. Elecivo verarbeitet sie ausschließlich zur Speicherung und Synchronisierung des Projekts in Ihrem Auftrag. Sie sind dafür verantwortlich, Ihre Kunden und Mitarbeiter über die Verarbeitung ihrer Daten zu informieren (Art. 14 DSGVO).</p>
+
+        <h2>4. Auftragsverarbeiter</h2>
+        <p>Wir geben Daten nur an folgende Auftragsverarbeiter weiter, alle in der Europäischen Union:</p>
+        <ul>
+          <li><strong>Scaleway SAS</strong>, 8 rue de la Ville l'Evêque, 75008 Paris, Frankreich — Cloud-Hosting (Server, Backups) und transaktionale E-Mail (TEM). Kein Transfer außerhalb des EWR.</li>
+        </ul>
+
+        <h2>5. Ihre Rechte</h2>
+        <ul>
+          <li><strong>Auskunft (Art. 15) und Portabilität (Art. 20):</strong> Nutzen Sie „Meine Daten exportieren" unter Konto &amp; Synchronisierung, um alle Ihre Daten und Projekte als JSON herunterzuladen.</li>
+          <li><strong>Löschung (Art. 17):</strong> Nutzen Sie „Konto löschen" unter Konto &amp; Synchronisierung.</li>
+          <li><strong>Berichtigung (Art. 16):</strong> Aktualisieren Sie Ihren Namen und Ihre E-Mail unter Konto &amp; Synchronisierung.</li>
+          <li><strong>Einschränkung (Art. 18) und Widerspruch (Art. 21):</strong> Kontaktieren Sie uns unter <span class="placeholder">[privacy@elecivo.eu]</span>. Wir antworten innerhalb eines Monats.</li>
+          <li><strong>Keine automatisierte Entscheidungsfindung</strong> mit rechtlicher oder erheblicher Wirkung.</li>
+        </ul>
+
+        <h2>6. Beschwerden</h2>
+        <p>Sie haben das Recht, eine Beschwerde bei der bulgarischen Datenschutzbehörde (КЗЛД) einzureichen, die für Elecivo federführende Aufsichtsbehörde ist:</p>
+        <p>Commission for Personal Data Protection (КЗЛД)<br>
+        бул. „Проф. Цветан Лазаров" № 2, Sofia 1592, Bulgarien<br>
+        <a href="https://www.cpdp.bg/" target="_blank" rel="noopener">www.cpdp.bg</a></p>
+        <p>Sie können auch bei der Aufsichtsbehörde Ihres gewöhnlichen Aufenthaltsorts oder Arbeitsorts Beschwerde einlegen (Art. 77 DSGVO).</p>
+
+        <h2>7. Änderungen dieser Hinweise</h2>
+        <p>Wenn wir die Verarbeitung Ihrer Daten wesentlich ändern, informieren wir Sie per E-Mail, bevor die Änderung in Kraft tritt.</p>
+        <p><small>Letzte Aktualisierung: 2026-10-26</small></p>
+      </div>
+
+      <!-- ═══════════════════════════════════════ RUSSIAN ═══════════════════════════════════════ -->
+      <div class="lang-section" lang="ru">
+        <div class="notice">Настоящее уведомление распространяется на пользователей Elecivo (elecivo.eu). Оно предоставляется в соответствии со ст. 13 Общего регламента о защите данных (GDPR) и болгарского Закона о защите персональных данных (ЗЗЛД).</div>
+
+        <h2>1. Контролёр данных</h2>
+        <p>Контролёром персональных данных является <span class="placeholder">[НАИМЕНОВАНИЕ КОМПАНИИ]</span>, <span class="placeholder">[ЕИК / UIC: XXXXXXXXX]</span>, <span class="placeholder">[АДРЕС]</span>, электронная почта: <span class="placeholder">[privacy@elecivo.eu]</span>.</p>
+        <p>Сотрудник по защите данных не назначен (пороговые значения ст. 37 GDPR не достигнуты).</p>
+
+        <h2>2. Данные, которые мы храним, и зачем</h2>
+        <table>
+          <tr><th>Данные</th><th>Цель</th><th>Правовое основание</th><th>Срок хранения</th></tr>
+          <tr>
+            <td>Электронная почта, имя, хеш пароля, сессии, токены верификации и сброса</td>
+            <td>Создание учётной записи, аутентификация и безопасность</td>
+            <td>Ст. 6(1)(б) — договор</td>
+            <td>На время существования учётной записи; сессии истекают через 30 дней; токены истекают при использовании или в пределах срока действия. После удаления учётной записи: 30 дней.</td>
+          </tr>
+          <tr>
+            <td>Данные проекта (помещения, устройства, цепи, документы, ревизии, изображения, профиль компании, каталоги)</td>
+            <td>Хранение и синхронизация ваших электропроектов</td>
+            <td>Ст. 6(1)(б) — договор<br><em>В отношении персональных данных ваших клиентов и сотрудников (имена, адреса, ставки), хранимых в проектах, Elecivo выступает обработчиком; вы остаётесь контролёром.</em></td>
+            <td>До удаления проекта или учётной записи владельцем. Резервные копии: 30 дней.</td>
+          </tr>
+          <tr>
+            <td>Ожидающее приглашение: адрес электронной почты приглашённого</td>
+            <td>Доставка приглашения в проект лицу, у которого может не быть учётной записи</td>
+            <td>Ст. 6(1)(е) — законный интерес учётной записи, открывающей доступ к проекту</td>
+            <td>До принятия, отклонения или отзыва приглашения владельцем проекта.</td>
+          </tr>
+          <tr>
+            <td>Журналы сервера (ошибки запросов, отчёты об ошибках браузера с ID учётной записи)</td>
+            <td>Безопасность и доступность сервиса</td>
+            <td>Ст. 6(1)(е) — законный интерес</td>
+            <td>30 дней</td>
+          </tr>
+          <tr>
+            <td>Метрики использования (количество ревизий, помещений, устройств, площадь, часы, отклонение BOM — связаны с хешем ID проекта)</td>
+            <td>Понимание использования инструмента для его улучшения</td>
+            <td>Ст. 6(1)(е) — законный интерес</td>
+            <td>Вычисляются по запросу; отдельно не хранятся.</td>
+          </tr>
+          <tr>
+            <td>Хранилище браузера (IndexedDB, сессионный cookie)</td>
+            <td>Хранение проектов на вашем устройстве и поддержание сеанса входа</td>
+            <td>Строго необходимо для запрошенного сервиса (ст. 5(3) Директивы ePrivacy); согласие не требуется</td>
+            <td>На вашем устройстве; удаляется при деинсталляции или очистке данных сайта.</td>
+          </tr>
+        </table>
+
+        <h2>3. Наша роль как обработчика в отношении данных ваших клиентов</h2>
+        <p>Когда вы вносите имена клиентов, адреса или ставки сотрудников в проект, вы являетесь контролёром этих персональных данных. Elecivo обрабатывает их исключительно для хранения и синхронизации проекта по вашему поручению. Вы несёте ответственность за информирование ваших клиентов и сотрудников о порядке обработки их данных (ст. 14 GDPR).</p>
+
+        <h2>4. Используемые нами обработчики</h2>
+        <p>Мы передаём данные только следующим обработчикам, все в Европейском союзе:</p>
+        <ul>
+          <li><strong>Scaleway SAS</strong>, 8 rue de la Ville l'Evêque, 75008 Париж, Франция — облачный хостинг (серверы, резервные копии) и транзакционная электронная почта (TEM). Передача за пределы ЕЭЗ не осуществляется.</li>
+        </ul>
+
+        <h2>5. Ваши права</h2>
+        <ul>
+          <li><strong>Доступ (ст. 15) и переносимость (ст. 20):</strong> используйте «Выгрузить мои данные» в разделе «Аккаунт и синхронизация», чтобы скачать все ваши данные и проекты в формате JSON.</li>
+          <li><strong>Удаление (ст. 17):</strong> используйте «Удалить аккаунт» в разделе «Аккаунт и синхронизация».</li>
+          <li><strong>Исправление (ст. 16):</strong> обновите имя и адрес электронной почты в разделе «Аккаунт и синхронизация».</li>
+          <li><strong>Ограничение (ст. 18) и возражение (ст. 21):</strong> свяжитесь с нами по адресу <span class="placeholder">[privacy@elecivo.eu]</span>. Мы ответим в течение одного месяца.</li>
+          <li><strong>Без автоматизированного принятия решений</strong> с юридическими или значительными последствиями.</li>
+        </ul>
+
+        <h2>6. Жалобы</h2>
+        <p>Вы вправе подать жалобу в болгарскую Комиссию по защите персональных данных (КЗЛД), которая является ведущим надзорным органом для Elecivo:</p>
+        <p>Commission for Personal Data Protection (КЗЛД)<br>
+        бул. „Проф. Цветан Лазаров" № 2, София 1592, Болгария<br>
+        <a href="https://www.cpdp.bg/" target="_blank" rel="noopener">www.cpdp.bg</a></p>
+        <p>Вы также можете подать жалобу в надзорный орган по месту вашего обычного проживания или работы (ст. 77 GDPR).</p>
+
+        <h2>7. Изменения настоящего уведомления</h2>
+        <p>Если мы существенно изменим порядок обработки ваших данных, мы уведомим вас по электронной почте до вступления изменений в силу.</p>
+        <p><small>Последнее обновление: 2026-10-26</small></p>
+      </div>
+    </main>
+
+    <script>
+      function setLang(lang) {
+        document.querySelectorAll('.lang-section').forEach(el => el.classList.toggle('active', el.lang === lang))
+        document.querySelectorAll('.lang-bar button').forEach(btn => btn.classList.toggle('active', btn.lang === lang))
+        document.documentElement.lang = lang
+        try { localStorage.setItem('elecivo-privacy-lang', lang) } catch (_) {}
+      }
+      try {
+        const saved = localStorage.getItem('elecivo-privacy-lang')
+        if (saved && ['en','bg','de','ru'].includes(saved)) setLang(saved)
+      } catch (_) {}
+    </script>
+  </body>
+</html>

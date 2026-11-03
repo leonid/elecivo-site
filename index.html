@@ -1,1 +1,97 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Elecivo</title><body style="font-family:system-ui;margin:2rem"><h1>Elecivo</h1><p>The site is coming soon.</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Elecivo — electrical design for apartments</title>
+<meta name="description" content="Draw the rooms, place the devices, and get circuits, cable sizes, checks, the distribution board, the bill of materials and a quotation from one project model.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="./"><img src="icon.svg" alt="" width="28" height="28">Elecivo</a>
+  <nav aria-label="Site">
+    <a href="demo/">Demo</a>
+    <a href="knowledge/">Knowledge base</a>
+    <a href="guide/getting-started.html">Guide</a>
+    <a href="bg/" hreflang="bg" lang="bg" title="На български">BG</a>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Electrical design for apartments, from floor plan to quotation</h1>
+      <p class="lead">Draw the rooms, place sockets, switches and lights, and Elecivo groups them into circuits, sizes cables and breakers, checks the design and prices it. Every figure comes from one project, so the plan, the board, the bill of materials and the quote always agree.</p>
+      <p class="actions">
+        <a class="button primary" href="demo/p/demo-sofia">Try the demo</a>
+        <a class="button" href="knowledge/">Read the knowledge base</a>
+      </p>
+      <p class="note">The demo runs in your browser. No sign-up, and nothing you do leaves your device.</p>
+    </div>
+    <img class="hero-shot" src="screenshots/plan-en.jpg" alt="The floor plan of the demo apartment with its devices and cable routes" width="1280" height="800">
+  </section>
+  <section aria-labelledby="steps">
+    <h2 id="steps">One project, every output</h2>
+    <ol class="steps">
+    <li><h3>Plan</h3><p>Trace a measured drawing or draw the rooms to the millimetre; walls, doors and windows follow.</p></li>
+    <li><h3>Devices and circuits</h3><p>Place sockets, switches, lights and appliances. Elecivo suggests the circuits and routes the cables along the walls.</p></li>
+    <li><h3>Checks</h3><p>Cable capacity, voltage drop, breaker coordination, RCD loading, bathroom zones and start-up current, checked again on every change.</p></li>
+    <li><h3>Distribution board</h3><p>Rails, single-line diagram, wiring and labels, with a simulator to trip an RCD and see what goes dark.</p></li>
+    <li><h3>Materials and quotation</h3><p>Bill of materials, labour, supplier orders and a client quotation, with A3 drawings ready to print.</p></li>
+    <li><h3>On site</h3><p>Work log, crew hours and material on site, tracked against the plan.</p></li>
+    </ol>
+  </section>
+  <section aria-labelledby="try">
+    <h2 id="try">Try one part</h2>
+    <p>Each link opens the demo apartment on one screen, with one thing to try.</p>
+    <ul class="try">
+  <li class="try-card">
+    <a href="demo/p/demo-sofia/plan">
+      <img src="screenshots/plan-en.jpg" alt="The floor plan of the demo apartment with its devices and cable routes" width="1280" height="800" loading="lazy">
+      <h3>Plan</h3>
+    </a>
+    <p>Move a socket and watch the cable length and the bill of materials follow.</p>
+  </li>
+  <li class="try-card">
+    <a href="demo/p/demo-sofia/board">
+      <img src="screenshots/board-en.jpg" alt="The distribution board on its DIN rails" width="1280" height="800" loading="lazy">
+      <h3>Distribution board</h3>
+    </a>
+    <p>See the rails and the single-line diagram; in Simulate, trip an RCD.</p>
+  </li>
+  <li class="try-card">
+    <a href="demo/p/demo-sofia/circuits">
+      <img src="screenshots/circuits-en.jpg" alt="The circuit list with cable sizes, voltage drop and check results" width="1280" height="800" loading="lazy">
+      <h3>Circuits</h3>
+    </a>
+    <p>Find the design fault in the demo and apply the suggested fix.</p>
+  </li>
+  <li class="try-card">
+    <a href="demo/p/demo-sofia/documents">
+      <img src="screenshots/documents-en.jpg" alt="The document list with the quotation and the drawing sheets" width="1280" height="800" loading="lazy">
+      <h3>Documents</h3>
+    </a>
+    <p>Open the quotation and the plan sheets as PDF.</p>
+  </li>
+    </ul>
+  </section>
+  <section class="band" aria-labelledby="knowledge">
+    <h2 id="knowledge">Notes from practice</h2>
+    <p>The knowledge base collects what experienced electricians know: common mistakes, good practice and the requirements behind them. These 74 notes are the ones behind the checks Elecivo already makes. They are drafts, still to be reviewed by a designer.</p>
+    <p><a class="button" href="knowledge/">Read the notes</a></p>
+  </section>
+  <section class="band" aria-labelledby="pilot">
+    <h2 id="pilot">Join the pilot</h2>
+    <p>Elecivo is being tried on real apartments. If you design or install electrical installations in homes and would like to use it on a job, write to us.</p>
+    <p><a class="button primary" href="mailto:pilot@example.com">Write to us</a> <span class="mail">pilot@example.com</span></p>
+  </section>
+</main>
+<footer class="site-footer">
+  <p>Elecivo is a design aid. A qualified designer remains responsible for every design.</p>
+  <p>This site sets no cookies and loads nothing from other sites. The demo keeps your changes in your own browser only.</p>
+  <p><a href="guide/getting-started.html">User guide</a></p>
+</footer>
+</body>
+</html>
